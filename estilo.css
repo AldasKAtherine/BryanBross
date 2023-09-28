@@ -1,0 +1,113 @@
+
+/*
+    Fuentes
+*/
+
+@font-face {
+    font-family: "OnOff";
+    src: url("./fonts/onoff.otf");
+  }
+
+/* PANTALLA PRINCIPAL */
+.container-mid {
+    text-align: center;
+  }
+  #titulo {
+    font-family: "OnOff";
+    font-size: 7em;
+    margin-top: 1.5em;
+    color: #333;
+  }
+  #titulo span {
+    opacity: 0.1;
+  }
+  
+  #menu {
+    margin-bottom: 1em;
+  }
+  
+  #menu li {
+    list-style-type: none;
+    font-family: "OnOff";
+    font-size: 1.7em;
+    opacity: 0.1;
+    color: #333;
+    margin-bottom: 1em;
+  }
+  
+  .star-menu {
+    margin: 0px 10px;
+    vertical-align: middle;
+    display: none;
+  }
+  
+  #menu .selected-item .star-menu {
+    display: inline-block;
+  }
+  .selected-item {
+    color: #333 !important;
+    opacity: 1 !important;
+  }
+  #credits {
+    font-family: "OnOff";
+    opacity: 0.1;
+    color: #333;
+  }
+
+
+.oscuro{
+    background-color: #333333;
+}
+
+/* PANTALLA CONTROLES */
+
+#controls-screen{
+    text-align: center;
+}
+#controls{
+    width: 80vw;
+    margin-top: 5em;
+}
+.onoff{
+    font-family: "OnOff";
+}
+
+/*
+    Pantalla Niveles
+*/
+
+.sur-level{
+    padding: 4px;
+    display: inline-block;
+    margin: 2em 1em 1em 1em;
+}
+
+.level-selected{
+    border: 5px solid #444444;
+}
+
+.level-no-selected{
+    border: 5px solid #EEEEEE;
+}
+
+.con-level{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.con-level  p{
+    margin: 0px;
+    font-size: 40px;
+    font-family: onoff;
+    padding: 7px;
+}
+
+.no-passed{
+    background-color: #EEEEEE;
+}
+.passed{
+    background-color: #444444;
+}
+.passed p{
+    color: #fff;
+}

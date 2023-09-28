@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="524" height="124" viewBox="0 0 524 124">
+  <g fill="none" fill-rule="evenodd" transform="translate(-1 -1)">
+    <path fill="#444" fill-rule="nonzero" d="M28,4 L4,4 L4,28 L28,28 L28,4 Z M32,0 L32,32 L0,32 L0,0 L32,0 Z" transform="translate(151 32)"/>
+    <path fill="#444" fill-rule="nonzero" d="M179,72 L155,72 L155,96 L179,96 L179,72 Z M183,68 L183,100 L151,100 L151,68 L183,68 Z"/>
+    <path fill="#444" fill-rule="nonzero" d="M124,4 L4,4 L4,28 L124,28 L124,4 Z M128,0 L128,32 L0,32 L0,0 L128,0 Z" transform="translate(389 68)"/>
+    <path fill="#444" fill-rule="nonzero" d="M28,4 L4,4 L4,28 L28,28 L28,4 Z M32,0 L32,32 L0,32 L0,0 L32,0 Z" transform="translate(115 68)"/>
+    <path fill="#444" fill-rule="nonzero" d="M28,4 L4,4 L4,28 L28,28 L28,4 Z M32,0 L32,32 L0,32 L0,0 L32,0 Z" transform="translate(187 68)"/>
+    <text fill="#333" font-family="ONOFF-Regular, ONOFF" font-size="20">
+      <tspan x="133.42" y="16">SALTAR</tspan>
+    </text>
+    <text fill="#333" font-family="ONOFF-Regular, ONOFF" font-size="20">
+      <tspan x=".38" y="92">IZQUIERDA</tspan>
+    </text>
+    <text fill="#333" font-family="ONOFF-Regular, ONOFF" font-size="20">
+      <tspan x="231.24" y="92">DERECHA</tspan>
+    </text>
+    <text fill="#333" font-family="ONOFF-Regular, ONOFF" font-size="20">
+      <tspan x="413.24" y="92">ESPACIO</tspan>
+    </text>
+    <text fill="#333" font-family="ONOFF-Regular, ONOFF" font-size="20">
+      <tspan x="379.34" y="125">CAMBIAR COLOR</tspan>
+    </text>
+    <polygon fill="#444" fill-rule="nonzero" points="167 40 175 56 159 56" transform="matrix(-1 0 0 1 334 0)"/>
+    <polygon fill="#444" fill-rule="nonzero" points="131 77 139 93 123 93" transform="matrix(0 1 1 0 46 -46)"/>
+    <polygon fill="#444" fill-rule="nonzero" points="203 77 211 93 195 93" transform="matrix(0 -1 -1 0 288 288)"/>
+  </g>
+</svg>

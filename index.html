@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="./estilo.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main-screen">
+      <div class="container-mid">
+        <h1 id="titulo"><span>BRYAN</span> BROSS</h1>
+      </div>
+      <div class="container-mid">
+        <ul id="menu">
+          <li class="selected-item">
+            <span>
+              <img src="./images/star.svg" class="star-menu" />
+            </span>
+            EMPEZAR JUEGO
+            <span>
+              <img src="./images/star.svg" class="star-menu" />
+            </span>
+          </li>
+          <li>
+            <span>
+              <img src="./images/star.svg" class="star-menu" />
+            </span>
+            CONTROLES
+            <span>
+              <img src="./images/star.svg" class="star-menu" />
+            </span>
+          </li>
+        </ul>
+
+        <footer>
+          <h2 id="credits">
+            UTA 2019 • MICHELLE ALDAS • DAVID GALARZA • DIEGO SANTAMARIA
+          </h2>
+        </footer>
+      </div>
+    </div>
+
+    <div id="levels-screen" style="text-align: center;    padding: 4em 0px;">
+      <h2 class="onoff">NIVELES</h2>
+      <div id="grid-container"></div>
+
+      <h2 class="onoff" style="opacity: 0.3">REGRESAR: ESC</h2>
+    </div>
+    <div id="controls-screen">
+      <img src="./images/controls.svg" id="controls" />
+      <ul id="menu" style="margin-top: 8em;">
+        <li class="selected-item">
+          <span>
+            <img src="./images/star.svg" class="star-menu" />
+          </span>
+          REGRESAR
+          <span>
+            <img src="./images/star.svg" class="star-menu" />
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="resume-screen">
+      <div class="container-mid">
+        <h1 id="titulo"><span>BRYAN</span> BROSS</h1>
+        <h1 id="titulo-res" class="onoff">FELICIDADES</h1>
+        <h1 id="titulo-res" class="onoff">COMPLETASTE TODOS LOS NIVELES</h1>
+      </div>
+      <div class="container-mid">
+        <ul id="menu" style="margin-top: 8em;">
+          <li class="selected-item">
+            <span>
+              <img src="./images/star.svg" class="star-menu" />
+            </span>
+            REGRESAR
+            <span>
+              <img src="./images/star.svg" class="star-menu" />
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--
+        Reproducir audio principal
+    -->
+    <iframe
+      src="./audio/primary_song.m4a"
+      allow="autoplay"
+      id="audio"
+      style="display:none"
+    ></iframe>
+    <audio id="player" autoplay loop>
+      <source src="./audio/primary_song.m4a" type="audio/m4a" />
+    </audio>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase-firestore.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ryanpcmcquen/quintus-cdn@f772bdbc74df2b4983ab883fb23d73770361e639/quintus-all.min.js"></script>
+    <script src="./data/niveles.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
